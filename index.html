@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            background-color: #34b8f4;  
+        }
+        .flex-container {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: column;
+            max-height: 1080px;
+            align-items: center;
+            justify-content: center;
+        }
+        .flex-item
+        {
+            margin: 0 auto;
+            width: 100%;
+            background-color: #34b8f4;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="flex-item">
+                <video autoplay muted loop id="comingsoon">
+                    <source src="comingsoon.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </body>
+</html>
